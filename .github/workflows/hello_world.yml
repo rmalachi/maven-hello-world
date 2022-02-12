@@ -19,7 +19,7 @@ jobs:
           # echo " This is a test"
           # echo "-----------------------------------------"
           cd "my-app"
-          # mvn -e compile
-          mvn -h
-          mvn --version
+          mvn -e compile
+          # mvn -h
+          # mvn --version
           # java -cp target/classes com.mycompany.app.App
