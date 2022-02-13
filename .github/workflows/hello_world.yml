@@ -16,5 +16,5 @@ jobs:
       - name: Build with Maven
         run: |
           cd "my-app"
-          mvn compile -DbumpPatch
+          mvn validate -DbumpPatch compile
           java -cp target/classes com.mycompany.app.App
